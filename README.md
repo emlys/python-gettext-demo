@@ -7,7 +7,9 @@ $ cd python-gettext-demo
 $ pip install .
 $ demo_gettext
 Enter your language: ll
-foo bar baz in your language: fσσ bar baz
+foo bar baz in your language: fσσ вαя вαz
+Enter your language: en
+foo bar baz in your language: foo bar baz
 ```
 
 Project structure:
