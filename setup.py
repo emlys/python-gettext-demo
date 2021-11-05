@@ -1,4 +1,6 @@
-from distutils.core import setup
+import os
+import subprocess
+from setuptools import setup
 
 # internationalization: compile human-readable PO message catalogs
 # into machine-readable MO message catalogs used by gettext
@@ -17,5 +19,10 @@ setup(
     packages=['a'],
     package_data={
         'a': ['locales/ll/LC_MESSAGES/messages.mo']
-    }
+    },
+    entry_points={
+        'console_scripts': [
+            'demo_gettext = a.interface:main'
+        ],
+    },
 )

@@ -1,2 +1,2 @@
 [build-system]
-requires = [babel']
+requires = ['setuptools', 'wheel', 'babel']
