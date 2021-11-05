@@ -17,10 +17,10 @@ python-gettext-demo/
 |   |-- c.py
 |   |-- interface.py
 |   |-- locales/
-|   |   |-- ll/
-|   |       |-- LC_MESSAGES
-|   |           |-- messages.mo
-|   |           |-- messages.po
+|       |-- ll/
+|           |-- LC_MESSAGES
+|               |-- messages.mo
+|               |-- messages.po
 |-- pyproject.toml
 |-- setup.py
 ```
