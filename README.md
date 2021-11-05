@@ -10,16 +10,17 @@ $ demo-gettext
 
 Project structure:
 ```
-a/
-|-- __init__.py
-|-- b.py
-|-- c.py
-|-- interface.py
-|-- locales/
-|   |-- ll/
-|       |-- LC_MESSAGES
-|           |-- messages.mo
-|           |-- messages.po
-|-- setup.py
+python-gettext-demo/
+|-- a/
+|   |-- __init__.py
+|   |-- b.py
+|   |-- c.py
+|   |-- interface.py
+|   |-- locales/
+|   |   |-- ll/
+|   |       |-- LC_MESSAGES
+|   |           |-- messages.mo
+|   |           |-- messages.po
 |-- pyproject.toml
+|-- setup.py
 ```
