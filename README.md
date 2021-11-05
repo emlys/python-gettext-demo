@@ -5,7 +5,7 @@ Minimal example of python gettext in an application, including packaging and lan
 $ git clone https://github.com/emlys/python-gettext-demo.git
 $ cd python-gettext-demo
 $ pip install .
-$ demo-gettext
+$ demo_gettext
 Enter your language: ll
 foo bar baz in your language: fσσ bar baz
 ```
