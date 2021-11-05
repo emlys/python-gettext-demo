@@ -1,0 +1,11 @@
+msgid ""
+msgstr ""
+
+msgid "foo"
+msgstr "fσσ"
+
+msgid "bar"
+msgstr "вαя"
+
+msgid "baz"
+msgstr "вαz"
