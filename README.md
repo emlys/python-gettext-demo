@@ -6,6 +6,8 @@ $ git clone https://github.com/emlys/python-gettext-demo.git
 $ cd python-gettext-demo
 $ pip install .
 $ demo-gettext
+Enter your language: ll
+foo bar baz in your language: fσσ bar baz
 ```
 
 Project structure:
