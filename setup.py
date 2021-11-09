@@ -2,8 +2,8 @@ import os
 import subprocess
 from setuptools import setup
 
-# internationalization: compile human-readable PO message catalogs
-# into machine-readable MO message catalogs used by gettext
+# compile human-readable PO message catalogs into the
+# machine-readable MO message catalogs used by gettext
 # the MO files are included as package data
 locale_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'a/locales'))
 for locale in os.listdir(locale_dir):
@@ -18,11 +18,13 @@ setup(
     version='0.1',
     packages=['a'],
     package_data={
-        'a': ['locales/ll/LC_MESSAGES/messages.mo']
+        # include the compiled MO files in the package
+        'a': ['locales/*/LC_MESSAGES/messages.mo']
     },
     entry_points={
+        # create a command-line entrypoint
         'console_scripts': [
             'demo_gettext = a.interface:main'
         ],
-    },
+    }
 )
