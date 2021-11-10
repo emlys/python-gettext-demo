@@ -5,7 +5,8 @@ from setuptools import setup
 # compile human-readable PO message catalogs into the
 # machine-readable MO message catalogs used by gettext
 # the MO files are included as package data
-locale_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'a/locales'))
+locale_dir = os.path.abspath(os.path.join(
+    os.path.dirname(__file__), 'a/locales'))
 for locale in os.listdir(locale_dir):
     subprocess.run([
         'pybabel',
