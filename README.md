@@ -20,6 +20,7 @@ python-gettext-demo/
 ```
 
 ## packaging
+`gettext` uses non-python files, so you need to specially include them in the packaged application.
 
 ### wheel
 ```
@@ -37,6 +38,7 @@ foo bar baz in your language: foo bar baz
 ```
 $ git clone https://github.com/emlys/python-gettext-demo.git
 $ cd python-gettext-demo
+$ pip install pyinstaller
 $ pyinstaller \   # include compiled message catalog in executable bundle
     --add-data \  # you can also add this data with a hook or spec file
     a/locales/ll/LC_MESSAGES/messages.mo:a/locales/ll/LC_MESSAGES \
