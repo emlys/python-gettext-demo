@@ -1,5 +1,7 @@
 # python-gettext-demo
-Minimal example of translating an application with python gettext, including packaging and language switching at runtime 
+Minimal example of translating an application with python `gettext`, including packaging and language switching at runtime 
+
+Illustrates `gettext` with a simple command line application that repeatedly prompts you to enter a language code, then displays a message translated to your language. A sample language is provided. Entering the language code `ll` will display the "translated" message `fσσ вαя вαz`. Entering any other value will fall back to the default message `foo bar baz`.
 
 Project structure:
 ```
