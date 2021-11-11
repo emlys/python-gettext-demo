@@ -1,5 +1,5 @@
 # python-gettext-demo
-Minimal example of python gettext in an application, including packaging and language switching at runtime.
+Minimal example of translating an application with python gettext, including packaging and language switching at runtime 
 
 Project structure:
 ```
